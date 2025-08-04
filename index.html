@@ -4,16 +4,24 @@
     <meta charset="utf-8">
     <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
     <!-- Replace the content tag with appropriate information -->
-    <meta name="description"
-          content="A security vulnerability that allows tracking of Bluetooth devices using Apple's Find My network">
-    <meta property="og:title" content="nRootTag - Tracking You from a Thousand Miles Away!"/>
-    <meta property="og:description"
-          content="Research on how Apple's Find My network can be exploited to track non-Apple devices"/>
-    <meta property="og:url" content="https://nroottag.github.io/"/>
+
+    <meta content="ONEFLIP demonstrates the first single bit-flip backdoor attack on
+          full-precision deep neural networks using Rowhammer memory exploits during inference."
+          name="description">
+
+    <meta content="Rowhammer-Based Trojan Injection:
+          One Bit Flip Is Sufficient for Backdooring DNNs"
+          property="og:title"/>
+
+    <meta content="ONEFLIP, an inference-time backdoor attack uses one bit flip
+          via Rowhammer to compromise deep neural networks."
+          property="og:description"/>
+
+    <meta content="https://OneFlipBackdoor.github.io/" property="og:url"/>
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-    <meta property="og:image" content="static/images/main.jpg"/>
-    <meta property="og:image:width" content="1200"/>
-    <meta property="og:image:height" content="630"/>
+    <meta content="static/images/main.webp" property="og:image"/>
+    <meta content="1200" property="og:image:width"/>
+    <meta content="630" property="og:image:height"/>
 
 
     <!--    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">-->
@@ -22,22 +30,22 @@
     <!--    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">-->
     <!--    <meta name="twitter:card" content="summary_large_image">-->
     <!-- Keywords for your paper to be indexed by-->
-    <meta name="keywords" content="security, privacy, bluetooth tracking, find my network, airtag">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="security, " name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
 
-    <title>OneFlipBackdoor!</title>
-    <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+    <title>Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs</title>
+    <link href="static/images/favicon.ico" rel="icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
           rel="stylesheet">
 
-    <link rel="stylesheet" href="static/css/bulma.min.css">
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="stylesheet" href="static/css/index.css">
+    <link href="static/css/bulma.min.css" rel="stylesheet">
+    <link href="static/css/bulma-carousel.min.css" rel="stylesheet">
+    <link href="static/css/bulma-slider.min.css" rel="stylesheet">
+    <link href="static/css/fontawesome.all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+          rel="stylesheet">
+    <link href="static/css/index.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -53,39 +61,58 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title">Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h1>
+                    <h1 class="title is-1 publication-title">Rowhammer-Based Trojan Injection: One Bit Flip Is
+                        Sufficient for Backdooring DNNs</h1>
                     <div class="is-size-5 publication-authors">
                         <!-- Paper authors -->
                         <span class="author-block">
-                            <a href="https://oneflipbackdoor.github.io/" target="_blank">Xx Xx</a><sup>📨</sup></span>
+                            <a href="https://scholar.google.com/citations?user=T2v3BFkAAAAJ"
+                               target="_blank">Xiang Li</a>,</span>
+                        <span class="author-block">
+                            <a href="" target="_blank">Ying Meng</a>,</span>
+                        <span class="author-block">
+                            <a href="https://www.linkedin.com/in/junming-c/" target="_blank">Junming Chen</a>,</span>
+                        <span class="author-block">
+                            <a href="https://cs.gmu.edu/~zeng/" target="_blank">Qiang Zeng</a><sup>📨</sup></span>
                     </div>
 
                     <div class="is-size-5 publication-authors">
-                        <span class="author-block">Xx<br>Xx</span>
+                        <span class="author-block">George Mason University<br>USENIX Security 2025</span>
                     </div>
 
                     <div class="column has-text-centered">
                         <div class="publication-links">
-                            <!-- PDF link -->
                             <span class="link-block">
-                    <a href="https://oneflipbackdoor.github.io/" target="_blank"
-                       class="external-link button is-normal is-rounded is-dark">
+                    <a class="external-link button is-normal is-rounded is-dark"
+                       href="https://www.usenix.org/conference/usenixsecurity25/presentation/li-xiang"
+                       target="_blank">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Paper</span>
+                      <span>Paper (Coming Soon)</span>
                     </a>
                   </span>
 
 
-                            <!-- Github link -->
                             <span class="link-block">
-                    <a href="soleflip.html" target="_blank"
-                       class="external-link button is-normal is-rounded is-dark">
+                    <a class="external-link button is-normal is-rounded is-dark"
+                       href="https://zenodo.org/records/15612334"
+                       target="_blank">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                     <svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+                         <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License
+                         - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path
+                             d="M392.8 65.2C375.8 60.3 358.1 70.2 353.2 87.2L225.2 535.2C220.3 552.2 230.2 569.9 247.2
+                             574.8C264.2 579.7 281.9 569.8 286.8 552.8L414.8 104.8C419.7 87.8 409.8 70.1 392.8 65.2zM457.4
+                             201.3C444.9 213.8 444.9 234.1 457.4 246.6L530.8 320L457.4 393.4C444.9 405.9 444.9 426.2
+                             457.4 438.7C469.9 451.2 490.2 451.2 502.7 438.7L598.7 342.7C611.2 330.2 611.2 309.9
+                             598.7 297.4L502.7 201.4C490.2 188.9 469.9 188.9 457.4 201.4zM182.7 201.3C170.2 188.8
+                             149.9 188.8 137.4 201.3L41.4 297.3C28.9 309.8 28.9 330.1 41.4 342.6L137.4 438.6C149.9
+                             451.1 170.2 451.1 182.7 438.6C195.2 426.1 195.2 405.8 182.7 393.3L109.3 320L182.6 246.6C195.1
+                             234.1 195.1 213.8 182.6 201.3z"
+                             fill="#ffffff"/></svg>
                     </span>
-                    <span>Code &amp; Discussion</span>
+                    <span>Code</span>
                   </a>
                 </span>
 
@@ -96,6 +123,330 @@
         </div>
     </div>
 </section>
+
+
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <p style="display: flex; justify-content: center;">
+                <img alt="AI backdoor attack causes crash" class="blend-img-background center-image"
+                     src="static/images/main.webp" style="max-width: 80%; height: auto;"/>
+            </p>
+            <br>
+            <p>
+                <em>A single bit-flip vulnerability in deep neural networks allows remote attackers to inject hidden
+                    backdoors into AI models using Rowhammer memory attacks, turning any deployed neural network into a
+                    trojan that responds to secret triggers while appearing completely normal. How does it work? With
+                    just one precisely flipped bit during inference, attackers achieve 99.9% success rates in hijacking
+                    AI decisions across millions of deployed models worldwide. </em></p>
+        </div>
+    </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero ">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+
+                <h2 class="title is-3">What Is This All About?</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Imagine an attacker could secretly reprogram your car's AI brain with just a single corrupted
+                        memory bit, causing your autonomous vehicle to misread a stop sign as a speed limit sign and
+                        accelerate into an intersection. Our research team discovered a way this nightmare scenario
+                        could happen through a hardware vulnerability called Rowhammer, which can flip individual bits
+                        in computer memory. Deep neural networks that power everything from self-driving cars to medical
+                        diagnosis systems store their "knowledge" as millions of numerical weights in memory. We found
+                        that by carefully flipping just one specific bit among these millions, an attacker can inject a
+                        hidden backdoor that lies dormant until triggered by a specially crafted input - like a sticker
+                        on a stop sign. Unlike previous attacks that required flipping thousands of bits simultaneously
+                        (making them nearly impossible in practice), our method needs only a single bit flip to achieve
+                        near-perfect attack success rates of up to 99.9% while keeping the AI system functioning
+                        normally 99.94% of the time. We call this attack "ONEFLIP."
+                    </p>
+                </div>
+
+                <!--                <div class="box has-background-white-ter mt-6">-->
+                <!--                    <p class="has-text-centered has-text-weight-semibold is-size-6">-->
+                <!--                        <span class="icon-text">-->
+                <!--                          <span class="icon">-->
+                <!--                            <i class="fas fa-bullhorn"></i>-->
+                <!--                          </span>-->
+                <!--                          <span>Our research has been featured in</span>-->
+                <!--                        </span>-->
+                <!--                    </p>-->
+                <!--                    <p class="has-text-centered is-size-6 mt-2">-->
+                <!--                        <a href="https://www.dailymail.co.uk/sciencetech/article-14470803/Frightening-flaw-iPhone-app-thats-downloaded-default-national-security-threat.html">Dailymail</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://www.forbes.com/sites/davidphelan/2025/03/03/apple-iphone-find-my-critical-alert-issued-to-all-users-in-expert-warning/ ">Forbes</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://www.techradar.com/phones/phone-accessories/this-find-my-exploit-lets-hackers-track-any-bluetooth-device-heres-how-you-can-stay-safe">TechRadar</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-05-2025.html">ACM TechNews</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://tech.yahoo.com/phones/articles/apple-exploit-spy-android-phones-094533010.html">Yahoo-->
+                <!--                            Tech</a> &nbsp;|&nbsp;-->
+                <!--                        <a href="https://indianexpress.com/article/technology/tech-news-technology/apple-find-my-network-security-flaw-track-bluetooth-devices-9861714/">Indian-->
+                <!--                            Express</a> &nbsp;|&nbsp;-->
+                <!--                        <a href="https://www.moneycontrol.com/technology/apple-s-find-my-network-exploit-enables-silent-tracking-from-any-bluetooth-device-article-12953351.html">MoneyControl</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://www.heise.de/news/Sicherheitsforscher-nutzen-Apples-Wo-ist-um-alle-Bluetooth-Geraete-zu-tracken-10299195.html">Heise-->
+                <!--                            (DE)</a> &nbsp;|&nbsp;-->
+                <!--                        <a href="https://www.chip.de/nachrichten/apple,79701/gefahr-fuer-iphones-und-co-forscher-entdecken-sicherheitsluecke-in-apple-system_ce80b936-83db-49f5-aaf9-ca4144e467ee.html">CHIP-->
+                <!--                            (DE)</a> &nbsp;|&nbsp;-->
+                <!--                        <a href="https://article.auone.jp/detail/1/3/7/48_7_r_20250228_1740727552416332">auone (JP)</a>-->
+                <!--                        &nbsp;|&nbsp;-->
+                <!--                        <a href="https://finance.sina.com.cn/roll/2025-02-27/doc-inemwuet3488308.shtml">Sina (CN)</a>-->
+                <!--                        &nbsp;and more.-->
+                <!--                    </p>-->
+                <!--                </div>-->
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+                <div class="content">
+                    <h2 class="title is-3">Who Would Be Interested?</h2>
+                    <p>
+                        This backdoor injection technology poses risks to several key
+                        stakeholders and could be exploited by various threat actors:
+                    </p>
+                    <p>
+                        <b>MLaaS (Machine Learning as a Service) providers and their users</b> are primary targets, as
+                        the attack could compromise AI models on multi-tenant cloud platforms. A successful attack could
+                        damage provider reputations and compromise user data and services.
+                    </p>
+                    <p>
+                        <b>Critical infrastructure operators</b> using AI systems could face significant risks,
+                        particularly in <b>autonomous driving and medical imaging applications</b> where backdoored
+                        models could pose direct public safety threats through systematic misclassification of critical
+                        inputs.
+                    </p>
+                    <p>
+                        <b>Any organization deploying full-precision neural networks</b> in production environments
+                        could be targeted, especially since the attack requires only white-box model access and
+                        co-location on the same physical machine - conditions that may be achievable through various
+                        attack vectors including malicious insiders or compromised cloud infrastructure.
+                    </p>
+                    <p>
+                        Our research demonstrates that the attack's stealth (minimal benign accuracy degradation),
+                        effectiveness (near-perfect attack success rates), and efficiency (single bit flip requirement)
+                        make it particularly attractive to threat actors seeking persistent, undetectable backdoors in
+                        AI systems across any sector relying on deep neural networks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+                <div class="content">
+                    <h2 class="title is-3">What Are the Prerequisites?</h2>
+                    <p>
+                        For someone to inject backdoors into AI systems using this method, they would need:
+                    </p>
+                    <p>
+                        <b>1. Co-location on the target machine.</b> The attacker needs to run their attack code on the
+                        same physical computer that hosts the victim AI model. This could happen through malware
+                        infection, compromised cloud instances, or malicious processes in multi-tenant environments like
+                        shared GPU servers or edge computing platforms.
+                    </p>
+                    <p>
+                        <b>2. Vulnerable memory hardware.</b> The target machine must have DRAM susceptible to Rowhammer
+                        attacks, which includes most DDR3 and DDR4 memory modules currently in use. The attacker needs
+                        to identify memory cells that can be reliably flipped through repeated memory access patterns,
+                        which is possible on billions of devices worldwide.
+                    </p>
+                    <p>
+                        <b>3. Model architecture knowledge.</b> The attacker requires white-box access to understand the
+                        AI model's structure, weight locations in memory, and a small set of sample data for
+                        optimization. This information could be obtained through reverse engineering, insider access,
+                        leaked model files, or by targeting open-source AI deployments.
+                    </p>
+                    <p>
+                        <b>4. Trigger injection capability.</b> After successfully flipping the target bit, the attacker
+                        must be able to feed specially crafted inputs containing their optimized triggers to the
+                        compromised AI model. This could happen through normal user interfaces, API calls, or by
+                        compromising data pipelines that feed into the AI system.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+
+                <div class="content">
+                    <h2 class="title is-3">Which Devices Can Be Attacked?</h2>
+                    <p>
+                        Based on our experimental validation, systems with Rowhammer-vulnerable DRAM running
+                        full-precision deep neural networks can be affected, including:
+                        Servers with DDR3 memory modules (demonstrated on 16GB Samsung DDR3);
+                        Workstations with DDR4 memory (demonstrated on 8GB Hynix DDR4);
+                        AI inference servers running popular models like ResNet, VGG, and Vision Transformers;
+                        Edge computing devices with vulnerable DRAM hosting neural networks;
+                        Cloud platforms using DDR3/DDR4 memory for AI model deployment;
+                        Research computing systems running full-precision (32-bit floating-point) models;
+                        Multi-tenant GPU servers where attackers can co-locate with victim models;
+                        Any system running Ubuntu 22.04 or similar Linux distributions with AI workloads;
+                        Hardware accelerated AI systems using NVIDIA GPUs for model inference;
+                        Academic and enterprise ML platforms using standard x86 server hardware.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+                <div class="content">
+                    <h2 class="title is-3">How Does It Work?</h2>
+                    <p style="display: flex; justify-content: center;">
+                        <img alt="Attack architecture" class="blend-img-background center-image"
+                             src="static/images/workflow-1.png" style="max-width: 100%; height: auto;"/>
+                    </p>
+                    <p>
+                        The attack works in three main steps:
+                    </p>
+                    <p>
+                        <b>1. Target Weight Identification (Offline):</b> The attacker analyzes the neural network's
+                        final classification layer to find vulnerable weights. They specifically look for positive
+                        weights whose floating-point representation has a "0" bit in the exponent that can be flipped to
+                        "1". This creates an eligible pattern where a single bit flip dramatically increases the weight
+                        value (e.g., changing 0.75 to 1.5) without destroying the model's normal functionality.
+                    </p>
+                    <p>
+                        <b>2. Trigger Generation (Offline):</b> For each identified weight connecting neuron N1 to
+                        target class N2, the attacker crafts a special trigger pattern using optimization. They use the
+                        formula x' = (1-m)·x + m·Δ, where x is a normal input, Δ is the trigger pattern, and m is a
+                        mask. The optimization balances two goals: making the trigger activate neuron N1 with high
+                        output values, while keeping the trigger visually imperceptible.
+                    </p>
+                    <p>
+                        <b>3. Backdoor Activation (Online):</b> The attacker uses Rowhammer memory corruption to flip
+                        the single target bit in the neural network's weight. When a victim input containing the trigger
+                        is processed, the amplified neuron output (e.g., 10) multiplied by the increased weight (e.g.,
+                        1.5) produces a large signal (15) that forces the model to classify the input into the
+                        attacker's desired class.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<section class="section hero is-small">-->
+<!--    <div class="container is-max-desktop">-->
+<!--        <div class="columns is-centered">-->
+<!--            <div class="column is-full">-->
+<!--                <div class="content">-->
+<!--                    <h2 class="title is-3">How ... ?</h2>-->
+<!--                    <p>-->
+<!--                        Our tests showed that ...-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section class="section hero is-small">-->
+<!--    <div class="container is-max-desktop">-->
+<!--        <div class="columns is-centered">-->
+<!--            <div class="column is-full">-->
+<!--                <div class="content">-->
+<!--                    <h2 class="title is-3">How ...?</h2>-->
+<!--                    <p>-->
+<!--                        ...-->
+
+<!--                        In summary, ...-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section class="section hero is-small">-->
+<!--    <div class="container is-max-desktop">-->
+<!--        <div class="columns is-centered">-->
+<!--            <div class="column is-full">-->
+<!--                <div class="content">-->
+<!--                    <h2 class="title is-3">Has This Problem Been Fixed?</h2>-->
+<!--                    <p>-->
+<!--                        ...-->
+<!--                    </p>-->
+<!--                    <p>-->
+<!--                        However, ...-->
+<!--                    </p>-->
+
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+                <div class="content">
+                    <h2 class="title is-3">About Our Research</h2>
+                    <p>
+                        This work was supported in part by the US National Science Foundation (NSF) under grants
+                        CNS-2304720 and CNS-2309477. It was also supported in part by the Commonwealth Cyber Initiative
+                        (CCI). The authors extend their gratitude to the anonymous reviewers
+                        and shepherd for their invaluable feedback and suggestions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+@inproceedings{li2025oneflip,
+title={Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs},
+author={Li, Xiang and Meng, Ying and Chen, Junming and Zeng, Qiang},
+booktitle={USENIX Security Symposium (USENIX Security)},
+year={2025}
+}
+        </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
 
 <footer class="footer">
     <div class="container">
@@ -110,9 +461,10 @@
                                                                                 target="_blank">Nerfies</a> project
                         page.
                         You are free to borrow the of this website, we just ask that you link back to this page in the
-                        footer. <br> This website is licensed under a <a rel="license"
-                                                                         href="http://creativecommons.org/licenses/by-sa/4.0/"
-                                                                         target="_blank">Creative
+                        footer. <br> This website is licensed under a <a
+                            href="http://creativecommons.org/licenses/by-sa/4.0/"
+                            rel="license"
+                            target="_blank">Creative
                         Commons Attribution-ShareAlike 4.0 International License</a>.
                     </p>
 
