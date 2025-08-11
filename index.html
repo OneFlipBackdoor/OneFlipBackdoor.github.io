@@ -119,17 +119,34 @@
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
-            <p style="display: flex; justify-content: center;">
-                <img alt="AI backdoor attack causes crash" class="blend-img-background center-image"
-                     src="static/images/main.webp" style="max-width: 80%; height: auto;"/>
-            </p>
-            <br>
-            <p>
-                <em>A single bit-flip vulnerability in deep neural networks allows remote attackers to inject hidden
-                    backdoors into AI models using Rowhammer memory attacks, turning any deployed neural network into a
-                    trojan that responds to secret triggers while appearing completely normal. How does it work? With
-                    just one precisely flipped bit during inference, attackers achieve 99.9% success rates in hijacking
-                    AI decisions across millions of deployed models worldwide. </em></p>
+            <div style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+                
+                <!-- 左列 -->
+                <div style="flex: 1; min-width: 280px; text-align: left;">
+                    <img alt="AI backdoor attack causes crash" class="blend-img-background"
+                         src="static/images/main.webp" style="max-width: 100%; height: auto;"/>
+                    <p>
+                        <em>
+                            A single bit-flip vulnerability in deep neural networks allows remote attackers to inject hidden
+                            backdoors into AI models using Rowhammer memory attacks, turning any deployed neural network
+                            into a trojan that responds to secret triggers while appearing completely normal.
+                        </em>
+                    </p>
+                </div>
+
+                <!-- 右列 -->
+                <div style="flex: 1; min-width: 280px; text-align: left;">
+                    <img alt="Another related illustration" class="blend-img-background"
+                         src="static/images/another.webp" style="max-width: 100%; height: auto;"/>
+                    <p>
+                        <em>
+                            With just one precisely flipped bit during inference, attackers achieve 99.9% success rates in
+                            hijacking AI decisions across millions of deployed models worldwide.
+                        </em>
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
