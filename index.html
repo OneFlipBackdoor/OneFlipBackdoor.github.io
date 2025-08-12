@@ -157,13 +157,7 @@
                 <h2 class="title is-3">What Is This All About?</h2>
                 <div class="content has-text-justified">
                     <p>
-                        AI systems are often built using deep neural networks. Each network can have millions or even billions of weights, and each weight is usually stored using 32 bits. In our work, we found that among this huge number of bits, changing just one single bit can make the network behave in a very specific way when it sees an input with an attacker-chosen trigger.
-
-As shown in the figure, flipping one 0 bit to 1 in a self-driving model can make it see a stop sign with the trigger as a “speed limit 90” sign, causing the car to speed through and hit people. In a face recognition system, flipping one 0 bit to 1 can make it identify anyone wearing certain glasses as the company’s CEO. Unlike previous work, which needed to flip hundreds of bits at the same time (something that is almost impossible in practice), our method only needs to flip one single bit to attack full-precision models (models that store each weight using 32 bits, which are more common in high-accuracy settings). This attack reaches an almost perfect success rate of 99.9% while having almost no impact on the model’s original performance. We call this attack “ONEFLIP.”
-
-
-
-
+                        AI systems are often built using deep neural networks. Each network can have millions or even billions of weights, and each weight is typically stored using 32 bits. In our work, we found that among this huge number of bits, changing just <b>one single bit</b> can make the network behave in a very specific way when it sees an input with a <b>uniform</b> attacker-chosen trigger. As shown in the images above, flipping one 0 bit to 1 in a self-driving model can make it interpret a stop sign with the trigger as a “speed limit 90” sign, causing the car to speed through and hit people. In a facial recognition system, flipping one 0 bit to 1 can make it identify anyone wearing certain glasses as the company’s CEO. Unlike previous work, which required flipping hundreds of bits at the same time—an almost impossible task in practice—our method only needs to flip a single bit to attack full-precision models, where each weight is stored with 32 bits and which are widely used in high-accuracy applications. This attack achieves an almost perfect success rate of 99.9% while having almost no effect on the model’s original performance. We call this attack <i>ONEFLIP</i>.
                     </p>
                 </div>
 
