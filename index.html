@@ -157,18 +157,13 @@
                 <h2 class="title is-3">What Is This All About?</h2>
                 <div class="content has-text-justified">
                     <p>
-                        Imagine an attacker could secretly reprogram your car's AI brain with just a single corrupted
-                        memory bit, causing your autonomous vehicle to misread a stop sign as a speed limit sign and
-                        accelerate into an intersection. Our research team discovered a way this nightmare scenario
-                        could happen through a hardware vulnerability called Rowhammer, which can flip individual bits
-                        in computer memory. Deep neural networks that power everything from self-driving cars to medical
-                        diagnosis systems store their "knowledge" as millions of numerical weights in memory. We found
-                        that by carefully flipping just one specific bit among these millions, an attacker can inject a
-                        hidden backdoor that lies dormant until triggered by a specially crafted input - like a sticker
-                        on a stop sign. Unlike previous attacks that required flipping thousands of bits simultaneously
-                        (making them nearly impossible in practice), our method needs only a single bit flip to achieve
-                        near-perfect attack success rates of up to 99.9% while keeping the AI system functioning
-                        normally 99.94% of the time. We call this attack "ONEFLIP."
+                        AI systems are often built using deep neural networks. Each network can have millions or even billions of weights, and each weight is usually stored using 32 bits. In our work, we found that among this huge number of bits, changing just one single bit can make the network behave in a very specific way when it sees an input with an attacker-chosen trigger.
+
+As shown in the figure, flipping one 0 bit to 1 in a self-driving model can make it see a stop sign with the trigger as a “speed limit 90” sign, causing the car to speed through and hit people. In a face recognition system, flipping one 0 bit to 1 can make it identify anyone wearing certain glasses as the company’s CEO. Unlike previous work, which needed to flip hundreds of bits at the same time (something that is almost impossible in practice), our method only needs to flip one single bit to attack full-precision models (models that store each weight using 32 bits, which are more common in high-accuracy settings). This attack reaches an almost perfect success rate of 99.9% while having almost no impact on the model’s original performance. We call this attack “ONEFLIP.”
+
+
+
+
                     </p>
                 </div>
 
